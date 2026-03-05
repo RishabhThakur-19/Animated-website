@@ -3,7 +3,6 @@ import Button from "./Button";
 import { TiLocationArrow } from "react-icons/ti";
 import{useWindowScroll} from 'react-use';
 import gsap from "gsap";
-import photo from "/logo.png";
 
 const navitmes = ["Nexus", "Vault", "Prologue", "About", "Contact"];
 export const Navbar = () => {
@@ -82,7 +81,7 @@ useEffect(()=>{
       <header className="absolute top-1/2 w-full -translate-y-1/2">
         <nav className="flex size-full items-center justify-between p-4">
           <div className="flex items-center gap-7 ">
-            <img src={photo} alt="logo" className="w-10" />
+            <img src="\photos\logo.png" alt="logo" className="w-10" />
             <Button
               id="product-button"
               title="Products"
@@ -116,7 +115,7 @@ useEffect(()=>{
             <button className="ml-10 flex items-center space-x-0.5 " onClick={toggleAudioIndicator}
             >
               <audio ref={audioElementRef}
-              className="hidden" src="./public/public_audio_loop (1).mp3"
+              className="hidden" src="./public_audio_loop(1).mp3"
                loop/>
                {
                 
