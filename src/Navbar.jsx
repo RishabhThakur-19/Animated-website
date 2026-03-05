@@ -3,7 +3,7 @@ import Button from "./Button";
 import { TiLocationArrow } from "react-icons/ti";
 import{useWindowScroll} from 'react-use';
 import gsap from "gsap";
-import photo from "./photos/logo.png";
+import photo from "/logo.png";
 
 const navitmes = ["Nexus", "Vault", "Prologue", "About", "Contact"];
 export const Navbar = () => {
