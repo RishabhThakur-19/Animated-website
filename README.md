@@ -18,8 +18,6 @@ Welcome to the Animated Website project! This project showcases the power of ani
 2. Navigate to the project directory:
    ```bash
    cd Animated-website
-   ```
-3. Open `index.html` in your browser to view the project.
 
 ## Usage
 
@@ -30,10 +28,8 @@ Welcome to the Animated Website project! This project showcases the power of ani
 
 We welcome contributions from everyone! If you wish to improve this project, please fork the repository and create a pull request with your suggestions.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-For any inquiries, please contact me at rishabht123@example.com.
+For any inquiries, please contact me at rishabh.2005thakurabcd@gmail.com
